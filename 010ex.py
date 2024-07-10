@@ -1,0 +1,12 @@
+reais = float(input('Digite em reais o valor que tem na sua carteira:R$ '))
+dolares = float(reais/5.34)
+euro = float(reais/5.75)
+lene = float(reais/0.034)
+dolarCanada = float(reais/3.87)
+dolarAustralia = float(reais/3.50)
+print(f'Você tem US${dolares} na sua cateira ')
+print(f'Você tem {euro} euros na sua carteira ')
+print(f'Você tem {lene} lenes na sua carteira')
+print(f'Você tem {dolarCanada} dolares canadenses na sua carteira')
+print(f'Você tem {dolarAustralia} dolares australianos na sua carteira')
+#Crie um programa que leia quanto dinheiro uma pessoa tem na carteira e mostre quantos dólares ela pode comprar.

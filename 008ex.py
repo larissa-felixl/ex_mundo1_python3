@@ -1,0 +1,10 @@
+medida = float(input('Digite uma medida em metros: '))
+dm = float(medida*10)
+cm = float(medida*100)
+mm = float(medida*1000)
+km = float(medida/1000) 
+hm = float(medida/100)
+dam = float(medida/10)
+print(f'Essa medida equivale a {cm} em centímetros e {mm} em milímetros. ')
+print(f'Essa medida equivale a {dam} em decametros, {hm} em hectometros e {km} em quilometros.')
+# Escreva um programa que leia um valor em metros e o exiba convertido em centímetros e milímetros.
